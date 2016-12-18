@@ -9,7 +9,7 @@ var port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 app.post('/', function (req, res) {
-  var arr = req.result.parameters.letter;
+  var arr = req.body.result.parameters.letter;
   var word = "";
   for (var i = 0; i < arr.length; i++) {
     word += arr[i];
