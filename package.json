@@ -1,0 +1,11 @@
+{
+  "name": "speller-server",
+  "version": "1.0.0",
+  "description": "Spelling bot backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "PTM",
+  "license": "ISC"
+}
